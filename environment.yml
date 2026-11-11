@@ -29,6 +29,7 @@ dependencies:
 
   # vscode
   - code-server==4.106.2
+  - brotli-python>=1.2.1  # CVE-2026-111497
   - nodejs>=22.23.4,<23  # CVE-2026-111497
   - jupyter-vscode-proxy==0.7
   - jupyter-server-proxy==4.4.0
