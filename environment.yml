@@ -9,7 +9,7 @@ dependencies:
   - gh-scoped-creds==4.1
   - git==2.53.0
   - ipython==9.9.0
-  - jupyter-resource-usage=1.2.0
+  - jupyter-resource-usage==1.2.0
   - jupyterhub==5.5.1
   - jupyterlab==4.6.3
   - jupyter-archive==3.4.0
@@ -29,8 +29,8 @@ dependencies:
 
   # vscode
   - code-server==4.106.2
-  - brotli-python>=1.2.1  # CVE-2026-111497
-  - nodejs>=22.23.4,<23  # CVE-2026-111497
+  - brotli-python==1.2.1  # CVE-2026-111497
+  - nodejs==22.23.4  # CVE-2026-111497
   - jupyter-vscode-proxy==0.7
   - jupyter-server-proxy==4.4.0
 
@@ -49,137 +49,137 @@ dependencies:
   - sympy==1.14.0
 
   # umd
-  - adlfs
-  - argopy
-  - awscli
-  - black
-  - boto3
-  - bottleneck
-  - cartopy
-  - cdsapi
-  - cfgrib
-  - cf_xarray
-  - ciso
-  - cmocean
-  - contextily
-  - dask-geopandas
-  - dask-ml
-  - datashader
-  - descartes
-  - duckdb-cli
-  - earthaccess
-  - eofs
-  - erddapy
-  - esmpy
-  - fastjmd95
-  - flox
-  - fsspec
-  - gcm_filters
-  - gcsfs>=2025
-  - gdal
-  - gh
-  - geocube
-  - geopy
-  - geoviews-core
-  - git-lfs
-  - google-cloud-sdk
-  - gsw
-  - h5netcdf
-  - h5py
-  - holoviews
-  - hvplot
-  - icechunk
-  - intake
+  - adlfs==2026.8.0
+  - argopy==1.5.0
+  - awscli==2.34.31
+  - black==26.10.1
+  - boto3==1.43.117
+  - bottleneck==1.6.0
+  - cartopy==0.26.0
+  - cdsapi==0.7.7
+  - cfgrib==0.9.15.1
+  - cf_xarray==0.11.3
+  - ciso==0.2.2
+  - cmocean==4.0.3
+  - contextily==1.7.1
+  - dask-geopandas==0.5.0
+  - dask-ml==2025.1.0
+  - datashader==0.19.1
+  - descartes==1.1.0
+  - duckdb-cli==1.5.6
+  - earthaccess==0.17.0
+  - eofs==2.0.0
+  - erddapy==3.3.2
+  - esmpy==8.9.1
+  - fastjmd95==0.2.1
+  - flox==0.11.2
+  - fsspec==2026.9.0
+  - gcm_filters==0.5.1
+  - gcsfs==2026.10.1
+  - gdal==3.12.1
+  - gh==2.103.3
+  - geocube==0.7.1
+  - geopy==2.5.0
+  - geoviews-core==1.15.1
+  - git-lfs==3.8.1
+  - google-cloud-sdk==592.0.0
+  - gsw==3.6.23
+  - h5netcdf==1.8.2
+  - h5py==3.16.0
+  - holoviews==1.23.2
+  - hvplot==0.12.2
+  - icechunk==1.1.21
+  - intake==2.0.9
   # wait for zarr v3 compat - https://github.com/intake/intake-esm/issues/727
-  - intake-esm<2025.2.3
-  - intake-geopandas
-  - intake-stac
-  - intake-xarray
-  - ipdb
-  - ipykernel
-  - ipyleaflet
-  - ipympl
-  - ipytree
-  - ipywidgets
-  - jupyterlab_code_formatter
-  - jupyterlab-lsp
-  - jupyterlab-myst
-  - jupyter-panel-proxy
-  - jupyter-sshd-proxy
-  - kerchunk
-  - libgdal-arrow-parquet
-  - libgdal-netcdf
-  - line_profiler
-  - lonboard
-  - lxml
-  - lz4
-  - matplotlib-base
-  - memory_profiler
-  - metpy
-  - nb_conda_kernels
-  - nbstripout
-  - nc-time-axis
-  - netcdf4
-  - numbagg
-  - numcodecs
-  - numpy_groupies
-  - obstore
-  - odc-stac>=0.4.0
-  - openssh
-  - panel
+  - intake-esm==2023.11.10
+  - intake-geopandas==0.4.0
+  - intake-stac==0.4.0
+  - intake-xarray==2.0.0
+  - ipdb==0.13.13
+  - ipykernel==7.0.1
+  - ipyleaflet==0.20.0
+  - ipympl==0.10.0
+  - ipytree==0.2.2
+  - ipywidgets==8.1.7
+  - jupyterlab_code_formatter==3.1.0
+  - jupyterlab-lsp==5.3.0
+  - jupyterlab-myst==2.7.0
+  - jupyter-panel-proxy==0.2.0
+  - jupyter-sshd-proxy==0.3.0
+  - kerchunk==0.2.10
+  - libgdal-arrow-parquet==3.12.1
+  - libgdal-netcdf==3.12.1
+  - line_profiler==5.1.0
+  - lonboard==0.17.0
+  - lxml==6.1.3
+  - lz4==4.4.5
+  - matplotlib-base==3.10.3
+  - memory_profiler==0.61.0
+  - metpy==1.7.1
+  - nb_conda_kernels==2.5.1
+  - nbstripout==0.9.1
+  - nc-time-axis==1.4.1
+  - netcdf4==1.7.4
+  - numbagg==0.9.6
+  - numcodecs==0.16.6
+  - numpy_groupies==0.16.2
+  - obstore==0.12.1
+  - odc-stac==0.5.3
+  - openssh==10.2p1
+  - panel==1.9.4
   # wait for zarr v3 compat - https://github.com/OceanParcels/Parcels/issues/1819
   #- parcels
-  - param
-  - planetary-computer
-  - pop-tools
-  - pot
-  - pyarrow
-  - pycamhd
-  - pydap
-  - pystac
-  - pystac-client
-  - python-blosc
-  - python-duckdb
-  - python-gist
-  - python-graphviz
-  - python-lsp-ruff
-  - python-xxhash
-  - rasterio
-  - rclone
-  - rechunker
-  - rio-cogeo
-  - rioxarray
-  - ruff
-  - s3fs
-  - satpy
-  - scikit-image
-  - sparse
-  - snakeviz
-  - stackstac
-  - tiledb-py
-  - timezonefinder
-  - virtualizarr
-  - watermark
-  - xarray
-  - xarrayutils
-  - xarray_leaflet
-  - xarray-spatial
-  - xbatcher
+  - param==2.4.2
+  - planetary-computer==1.0.0
+  - pop-tools==2023.6.0
+  - pot==0.9.6.post1
+  - pyarrow==22.0.0
+  - pycamhd==0.7.0
+  - pydap==3.5.9
+  - pystac==1.16.0
+  - pystac-client==0.9.1
+  - python-blosc==1.11.4
+  - python-duckdb==2.0.0
+  - python-gist==0.10.6
+  - python-graphviz==0.21
+  - python-lsp-ruff==2.3.4
+  - python-xxhash==3.7.0
+  - rasterio==1.4.4
+  - rclone==1.75.2
+  - rechunker==0.5.2
+  - rio-cogeo==7.0.2
+  - rioxarray==0.19.0
+  - ruff==0.17.3
+  - s3fs==2026.9.0
+  - satpy==0.60.0
+  - scikit-image==0.26.0
+  - sparse==0.19.3
+  - snakeviz==2.2.2
+  - stackstac==0.5.1
+  - tiledb-py==0.36.1
+  - timezonefinder==9.0.0
+  - virtualizarr==2.5.1
+  - watermark==2.6.0
+  - xarray==2026.9.0
+  - xarrayutils==2.0.1
+  - xarray_leaflet==0.2.3
+  - xarray-spatial==0.5.3
+  - xbatcher==0.4.0
   # https://github.com/conda-forge/xcape-feedstock/pull/22
   #- xcape
-  - xclim
-  - xesmf
-  - xgboost
-  - xgcm
-  - xhistogram
-  - xmip
-  - xmitgcm
-  - xpublish
-  - xrft
-  - xskillscore
-  - xxhash
-  - xvec
-  - zarr>=3.0.8
+  - xclim==0.62.0
+  - xesmf==0.9.2
+  - xgboost==3.4.2
+  - xgcm==0.10.1
+  - xhistogram==0.3.2
+  - xmip==0.7.2
+  - xmitgcm==0.5.2
+  - xpublish==0.5.2
+  - xrft==1.0.2
+  - xskillscore==0.0.29
+  - xxhash==0.8.3
+  - xvec==0.5.2
+  - zarr==3.1.6
 
   # pip installed packages, conda is preferred
   - pip:
